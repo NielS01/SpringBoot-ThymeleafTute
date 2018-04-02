@@ -52,5 +52,5 @@ public class Home {
 		model.addAttribute("posts", postRepository.findAll());
 		return "result";
 	}
-	
+	// Test only
 }
